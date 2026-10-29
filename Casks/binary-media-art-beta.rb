@@ -1,12 +1,12 @@
 cask "binary-media-art-beta" do
-  version "2.0.0-beta.2"
+  version "2.0.0-beta.3"
 
   on_arm do
-    sha256 "068262185141c93af0e2fc512951eeae655bede6ca5e5e23b3393566fe156d0c"
+    sha256 "52b092f9ef5aea6a8cb5b196da2df21285238b7a0b9eacefc9dd2128dd269bde"
     url "https://github.com/BSSMAscending/media-art-beta/releases/download/v#{version}/media-art-for-windows-darwin-arm64-#{version}.zip"
   end
   on_intel do
-    sha256 "ec1ff5926f976e8af5cc25f253c852dd191b05757dd0fdf515f4ea4f3f9657c5"
+    sha256 "7afd1e3416742376b255de21329aa2e1fd8e445f85f9359252d2125c7e18aa00"
     url "https://github.com/BSSMAscending/media-art-beta/releases/download/v#{version}/media-art-for-windows-darwin-x64-#{version}.zip"
   end
 
